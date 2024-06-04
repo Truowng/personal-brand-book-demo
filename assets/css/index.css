@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: "Montserrat";
+  background: url(../images/body-bg.png) center no-repeat;
+  background-size: cover;
+}
+
+.drawing-line {
+  height: 100%;
+  width: 50%;
+}
+
+svg {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+
+.section .section-wrapper {
+  display: flex;
+}
